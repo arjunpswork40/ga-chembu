@@ -148,3 +148,15 @@ module.exports.allUsers = async (req,res,next) => {
         next(error)
     }
 }
+
+module.exports.test = async (req,res,next) => {
+
+    try {
+
+        
+        return res.json({msg:'hitted!!'});
+
+    } catch(error) {
+        next(error)
+    }
+}

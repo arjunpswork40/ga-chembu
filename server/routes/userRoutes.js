@@ -7,6 +7,8 @@ router.post('/login',login);
 router.post('/setAvatar/:id',setAvatar);
 
 router.get('/allUsers/:id',allUsers);
+router.get('/test',test);
+
 
 
 
